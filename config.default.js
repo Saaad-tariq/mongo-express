@@ -4,8 +4,8 @@ let mongo = {
   // Setting the connection string will only give access to that database
   // to see more databases you need to set mongodb.admin to true or add databases to the mongodb.auth list
   connectionString: process.env.ME_CONFIG_MONGODB_SERVER ? '' : process.env.ME_CONFIG_MONGODB_URL,
-  host: '127.0.0.1',
-  port: '27017',
+  host: '10.50.20.137',
+  port: '30021',
   dbName: '',
 };
 
